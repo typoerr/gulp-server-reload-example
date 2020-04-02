@@ -1,0 +1,2 @@
+- [remy/nodemon: Monitor for any changes in your node.js application and automatically restart the server - perfect for development](https://github.com/remy/nodemon#nodemon)
+- [JacksonGariety/gulp-nodemon: gulp + nodemon + convenience](https://github.com/JacksonGariety/gulp-nodemon)
