@@ -20,9 +20,10 @@ function clean(done) {
 
 function serve(done) {
   return nodemon({
+    // script: './src/index.ts',
+    exec: 'ts-node -r tsconfig-paths/register ./src/index.ts',
     watch: ['./src/**/*.ts'],
     ext: 'ts',
-    exec: 'ts-node -r tsconfig-paths/register ./src/index.ts',
     ignore: ['./test/*', './src/**/*.test.ts'],
     done,
   })
